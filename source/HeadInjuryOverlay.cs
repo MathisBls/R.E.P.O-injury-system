@@ -15,7 +15,12 @@ public class HeadInjuryOverlay : MonoBehaviour
     private void Update()
     {
         var avatar = PlayerAvatar.instance;
-        if (avatar == null) return;
+        if (avatar == null || Cursor.visible)
+        {
+            if (_cameraEffect != null)
+                _cameraEffect.enabled = false;
+            return;
+        }
 
         // Disable when dead
         bool isDead = avatar.playerHealth == null || avatar.playerHealth.health <= 0;

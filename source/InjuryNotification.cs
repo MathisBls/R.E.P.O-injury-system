@@ -143,7 +143,11 @@ public class InjuryNotification : MonoBehaviour
     private void OnGUI()
     {
         if (ActiveNotifications.Count == 0) return;
-        if (Cursor.visible) return;
+        if (Cursor.visible)
+        {
+            ActiveNotifications.Clear();
+            return;
+        }
 
         FindGameFont();
 
