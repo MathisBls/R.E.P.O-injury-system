@@ -1,0 +1,42 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:repomods.com)",
+      "Bash(dotnet --version)",
+      "Bash(dotnet new:*)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:thunderstore.io)",
+      "WebFetch(domain:www.scribd.com)",
+      "WebFetch(domain:www.nexusmods.com)",
+      "Bash(dotnet build:*)",
+      "WebFetch(domain:www.dafont.com)",
+      "WebFetch(domain:steamcommunity.com)",
+      "Bash(ls -la \"C:/Program Files \\(x86\\)/Steam/plugins/NicePrice/\")",
+      "Bash(find \"C:/Program Files \\(x86\\)/Steam/plugins/NicePrice/frontend/\" -type f)",
+      "Bash(find \"C:/Program Files \\(x86\\)/Steam/plugins/NicePrice/backend/\" -type f)",
+      "Bash(find \"C:/Program Files \\(x86\\)/Steam/plugins/NicePrice/webkit/\" -type f)",
+      "Bash(ls -la \"C:/Program Files \\(x86\\)/Steam/plugins/NicePrice/.millennium/\")",
+      "WebFetch(domain:gg.deals)",
+      "Bash(npm run:*)",
+      "Bash(npm install:*)",
+      "Bash(find \"C:\\\\Program Files \\(x86\\)\\\\Steam\\\\plugins\\\\gratitude\" -name \"*.tsx\" -o -name \"*.ts\")",
+      "Bash(find \"C:\\\\Program Files \\(x86\\)\\\\Steam\\\\plugins\\\\hltb-for-millennium\" -name \"*.tsx\" -o -name \"*.ts\")",
+      "Bash(ls -la \"C:\\\\Program Files \\(x86\\)\\\\Steam\\\\plugins\\\\gratitude\")",
+      "Bash(ls -la \"C:\\\\Program Files \\(x86\\)\\\\Steam\\\\plugins\\\\hltb-for-millennium\")",
+      "Bash(ls -la \"C:\\\\Program Files \\(x86\\)\\\\Steam\\\\plugins\\\\NicePrice\\\\frontend\")",
+      "Bash(find \"C:\\\\Program Files \\(x86\\)\\\\Steam\\\\plugins\\\\NicePrice\" -name \"package.json\" -o -name \"tsconfig.json\")",
+      "Bash(ls -la \"C:\\\\Program Files \\(x86\\)\\\\Steam\\\\plugins\")",
+      "Bash(ls -la \"C:\\\\Program Files \\(x86\\)\\\\Steam\\\\plugins\\\\steam-db\")",
+      "Bash(find \"C:\\\\Program Files \\(x86\\)\\\\Steam\\\\plugins\\\\steam-db\" -name \"index.tsx\")",
+      "Bash(find 'C:\\\\Program Files \\(x86\\)\\\\Steam\\\\plugins\\\\NicePrice\\\\node_modules\\\\@steambrew' -name *.d.ts)",
+      "Bash(ls -la 'C:\\\\Program Files \\(x86\\)\\\\Steam\\\\plugins\\\\NicePrice\\\\node_modules\\\\@steambrew\\\\client\\\\build\\\\components')",
+      "Bash(find \"C:\\\\Program Files \\(x86\\)\\\\Steam\\\\plugins\\\\NicePrice\\\\node_modules\\\\@steambrew\\\\client\\\\build\\\\components\" -name \"*Button*\")",
+      "Bash(head -50 \"C:\\\\Program Files \\(x86\\)\\\\Steam\\\\plugins\\\\Price-Account-Steam\\\\frontend\\\\index.tsx\")",
+      "Bash(wc -l C:/Users/Asuki/Documents/perso/fork/Zephyr/src-tauri/src/*)",
+      "Read(//c/Users/Asuki/Documents/perso/fork/Zephyr/**)",
+      "Bash(GIT_SEQUENCE_EDITOR=\"sed -i ''s/^pick /reword /g''\" git rebase -i HEAD~10)",
+      "Bash(xargs grep:*)"
+    ]
+  }
+}

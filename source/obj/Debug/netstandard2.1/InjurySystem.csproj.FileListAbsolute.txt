@@ -1,0 +1,8 @@
+C:\Users\Asuki\Documents\perso\fork\REPOMod\source\obj\Debug\netstandard2.1\InjurySystem.csproj.AssemblyReference.cache
+C:\Users\Asuki\Documents\perso\fork\REPOMod\source\obj\Debug\netstandard2.1\InjurySystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asuki\Documents\perso\fork\REPOMod\source\obj\Debug\netstandard2.1\InjurySystem.AssemblyInfoInputs.cache
+C:\Users\Asuki\Documents\perso\fork\REPOMod\source\obj\Debug\netstandard2.1\InjurySystem.AssemblyInfo.cs
+C:\Users\Asuki\Documents\perso\fork\REPOMod\source\obj\Debug\netstandard2.1\InjurySystem.csproj.CoreCompileInputs.cache
+C:\Users\Asuki\Documents\perso\fork\REPOMod\source\bin\Debug\netstandard2.1\InjurySystem.deps.json
+C:\Users\Asuki\Documents\perso\fork\REPOMod\source\bin\Debug\netstandard2.1\InjurySystem.dll
+C:\Users\Asuki\Documents\perso\fork\REPOMod\source\obj\Debug\netstandard2.1\InjurySystem.dll
