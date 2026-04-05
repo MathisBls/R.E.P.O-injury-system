@@ -1,0 +1,30 @@
+name: Release
+
+on:
+  push:
+    tags: ['v*']
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Build
+        run: dotnet build source/InjurySystem.csproj -c Release
+
+      - name: Get DLL path
+        id: dll
+        run: |
+          DLL=$(find source/bin/Release -name "InjurySystem.dll" | head -1)
+          echo "path=$DLL" >> $GITHUB_OUTPUT
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ${{ steps.dll.outputs.path }}
+          generate_release_notes: true
