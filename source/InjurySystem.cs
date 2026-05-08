@@ -11,7 +11,7 @@ public class InjurySystem : BaseUnityPlugin
 {
     public const string PluginGUID = "Asuki.InjurySystem";
     public const string PluginName = "InjurySystem";
-    public const string PluginVersion = "1.0.0";
+    public const string PluginVersion = "1.0.1";
 
     internal static InjurySystem Instance { get; private set; } = null!;
     internal new static ManualLogSource Logger => Instance._logger;
